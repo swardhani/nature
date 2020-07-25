@@ -1,0 +1,22 @@
+body{
+    width: 80%;
+    max-width: 30cm;
+    padding: 10vh 2cm;
+    background-color: white;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.fade{
+    background-image: linear-gradient(transparent 10%, rgb(220, 185, 218) 30%, rgb(30, 22, 130) 70%, transparent 90%);
+   -webkit-background-clip: text;
+    background-attachment: fixed;
+}
+.fade > *{
+    color: transparent;
+}
+img {
+    width: 800px;
+    height: 400px;
+}
+
